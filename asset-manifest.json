@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/API-FECTH/static/css/main.a2001545.css",
+    "main.js": "/API-FECTH/static/js/main.1f4f50ec.js",
+    "static/js/787.c4a22345.chunk.js": "/API-FECTH/static/js/787.c4a22345.chunk.js",
+    "index.html": "/API-FECTH/index.html",
+    "main.a2001545.css.map": "/API-FECTH/static/css/main.a2001545.css.map",
+    "main.1f4f50ec.js.map": "/API-FECTH/static/js/main.1f4f50ec.js.map",
+    "787.c4a22345.chunk.js.map": "/API-FECTH/static/js/787.c4a22345.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2001545.css",
+    "static/js/main.1f4f50ec.js"
+  ]
+}
