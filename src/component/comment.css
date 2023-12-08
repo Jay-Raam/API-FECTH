@@ -1,0 +1,15 @@
+/* Container styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+.six{
+    list-style: none;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,84 @@
+/* Container styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.btn:hover{
+    background-color: #3498db9f;
+}
+
+/* List styles */
+.onee {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* List item styles */
+.twoo {
+  margin: 12px;
+  width: 235px;
+  text-align: center;
+  font-size: 12px;
+  transition: transform 0.3s ease-in;
+}
+li{
+  list-style: none;
+}
+li.twoo:hover {
+  transform: scale(1.1);
+}
+
+/* Image styles */
+.three {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 600px) {
+  .twoo {
+    width: 100%;
+    max-width: 300px;
+    margin: 12px auto;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .twoo {
+    width: 48%; 
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .twoo {
+    width: 30%; 
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .twoo {
+    width: 229px;
+    margin-top: 7px; 
+  }
+}

@@ -1,0 +1,42 @@
+.container {
+ margin: 0 auto;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.button:hover{
+    background-color: #3498db9f;
+}
+.onee {
+  list-style: none;
+  padding: 0;
+}
+
+.twoo {
+  margin-bottom: 20px;
+    list-style: none;
+}
+
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+}
+
+.image {
+    margin-bottom: 20px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.para {
+  margin-bottom: 5px;
+}
